@@ -1,0 +1,251 @@
+*{
+    /* border: 1px solid red; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    /* text-decoration: none; */
+
+}
+  
+nav{
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    /* text-decoration: none; */
+}
+
+a:hover{
+    color: rgba(255, 217, 0, 0.638);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-header{
+        display: flex;
+        flex-direction: row;
+        justify-content:center ;
+        margin-left: 5%;
+        font-size: 1.6em;
+        width: 50%;
+        text-decoration: none;
+        padding-top: 10px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-right: 10%;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.background-img{
+    z-index: -1;
+    position:static;
+    width: 100%;
+}
+
+/* .landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.header{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px 1px 2px #000, 
+    1px 1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px -1px 0 #000;
+
+}
+
+.all-ticket-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 15%;
+    color: #000;
+}
+
+/* .ticket-info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+} */
+
+/* section.all-ticket-info{
+    /* background-color: white;
+} */ 
+
+.first-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+ul.ticket-details{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+
+h2{
+    color: #000;
+}
+.ticket-item-head{
+    color: #000;
+    font-size: 25px;
+
+}
+
+.ticket-item{
+    color: #000;
+}
+
+.read-more-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button{
+    background-color: #e1ad01;
+    font-size: 25px;
+}
+
+.main-pic{
+    padding: 5% 0%;
+}    
+
+.second-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+.third-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+.fourth-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+.footer-all{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footer-info-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot-info{
+    font-size: 1.6em;
+
+}
+
+.foothead{
+    font-size: 1.6em;
+}
+
+.foothead-socials{
+    font-size: 1.6em;
+}
+
+.footer-info-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ /* .diff-shows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+
+.footshows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+}
+
+.footshows-text{
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+}
+
+.diff-socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
